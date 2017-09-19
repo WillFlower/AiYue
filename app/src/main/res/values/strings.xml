@@ -1,0 +1,139 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">爱阅</string>
+
+    <!-- Navigation Left -->
+    <string name="navigation_left_username">GuanHua Wang</string>
+    <string name="navigation_left_mail">wanggh0757@163.com</string>
+    <string name="navigation_left_collection">个人收藏</string>
+    <string name="navigation_left_subscription">订阅管理</string>
+    <string name="navigation_left_settings">系统设置</string>
+    <string name="navigation_left_about">关  于</string>
+    <string name="navigation_left_pay">获取正版</string>
+    <string name="navigation_left_copyserialnum">复制序列号</string>
+    <string name="navigation_left_theme">主题风格</string>
+    <string name="navigation_left_feedback">意见反馈</string>
+
+    <!-- Feed Back -->
+    <string name="opinion_edit_hint">您的意见(options)：</string>
+    <string name="link_edit_hint">您推荐的链接(linktions)：</string>
+    <string name="contact_edit_hint">您的联系方式(contacts)：</string>
+    <string name="name_edit_hint">您的姓名(name)：</string>
+    <string name="other_edit_hint">其它(others)：</string>
+    <string name="mail_title_feedback">爱阅用户反馈</string>
+    <string name="mail_title_payoffical">爱阅用户打赏正版：</string>
+    <string name="mail_content_option">意见与建议：</string>
+    <string name="mail_content_link">推荐的链接：</string>
+    <string name="mail_content_contact">联系方式：</string>
+    <string name="mail_content_name">姓名：</string>
+    <string name="mail_content_other">其它：</string>
+    <string name="mail_content_userinfo">userinfo：</string>
+    <string name="mail_content_phoneinfo">phoneinfo：</string>
+    <string name="mail_content_payinfo">payinfo：</string>
+    <string name="send_button_text">发送邮件</string>
+    <string name="send_alert_message">有未填写完全的信息，确认发送？</string>
+    <string name="hint_feedback">感谢您的反馈！</string>
+    <string name="hint_mail_interval">请于%d分钟后发送邮件！</string>
+    <string name="snake_ok">OK</string>
+    <string name="snake_cancle">Cancle</string>
+    <string name="snake_restart_hint">重启后生效！</string>
+    <string name="snake_restart">立即重启</string>
+    <string name="snake_hint_mail_interval">十分感谢 o(*￣3￣)o</string>
+    <string name="mail_title_crashlog">AiYueCrashLog</string>
+
+    <!-- Hint Message -->
+    <string name="exit_hint">"再按一次退出程序"</string>
+    <string name="update_message_hint">"检测到新版本，是否更新？"</string>
+    <string name="openabout_message_hint">"这是你和“爱阅”的首次见面\n要去赶快认识一下吗？"</string>
+    <string name="update_download_hint" tools:ignore="TypographyEllipsis">"后台下载中，请稍后..."</string>
+    <string name="payoffical_message_hint">"如果已有授权码，请在下方填入后进行验证："</string>
+    <string name="payoffical_number_hint">"请在此输入授权码:"</string>
+    <string name="author_number_empty">"授权码为空，请重新输入！"</string>
+    <string name="author_number_error">"您的授权码有误，请查证后输入！"</string>
+    <string name="payoffical_number_success">"恭喜获得正版，请到设置中保存专属授权码！"</string>
+    <string name="payoffical_number_error">"支付失败！"</string>
+    <string name="author_number_right">"恭喜获得永久正版！"</string>
+    <string name="author_dedlinenumber_right">"恭喜获得正版，截止日期为："</string>
+    <string name="payoffical_number_wrong">"对不起，您输入的授权码有误！"</string>
+    <string name="payoffical_number_copy">"复制成功，可以去粘贴保存啦！"</string>
+    <string name="item_url_copy">"网址复制成功！"</string>
+    <string name="attention_pay_wait">请稍等,打赏马上开始！</string>
+    <string name="attention_get_offical_collection">请升级正版后启用收藏功能！</string>
+    <string name="attention_get_offical_copyurl">请升级正版后启用复制网址功能！</string>
+    <string name="attention_trial_times_off">今天体验次数用完！\n请升级正版或明天再来！</string>
+
+    <!-- Error Message -->
+    <string name="error_download_data">同步数据出错，请稍后重试！</string>
+    <string name="error_parse_data">数据解析出错！</string>
+    <string name="attention_empty_data_feedback">请添加您的反馈信息</string>
+    <string name="attention_network_connection">请检查您的网络状况</string>
+    <string name="attention_network_request_error">数据请求出错，请稍后重试！</string>
+    <string name="attention_permission_request_error">请开启相应的权限后使用爱阅！</string>
+
+    <!-- Custom Dialog -->
+    <string name="dialog_title_alert">提示信息</string>
+    <string name="dialog_title_update">正版提示</string>
+    <string name="dialog_button_positive">确定</string>
+    <string name="dialog_button_negative">取消</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+    <string name="dialog_button_payoffical">去升级正版</string>
+    <string name="dialog_button_inputnum">去验证授权码</string>
+
+    <!-- Search Activity -->
+    <string name="search_hint">搜索内容</string>
+    <string name="search_empty_hint">请输入搜索内容！</string>
+    <string name="search_fail">搜索结果为空！</string>
+
+    <!-- OptionMenu -->
+    <string name="show_single">单列显示</string>
+    <string name="show_double">双列显示</string>
+    <string name="show_three">三列显示</string>
+
+    <string name="about_text">
+        "关于“爱阅”\n\n"
+        "1、“爱阅”专注于收集优质的文章、站点、教程，与大家共分享。\n"
+        "2、如果你有好的意见和建议，欢迎反馈给我。\n"
+        "3、如果你有好的文章、站点或教程，欢迎联系我推广(填写好网址URL并尽量配送一张网站图标URL发送至邮箱wanggh0757@163.com即可)\n"
+        "4、如有涉及版权，请立即与我取得联系。\n\n\n"
+
+        "“爱阅”的打开方式\n\n"
+        "1、如果你是第一次使用，你第一眼看到的是“爱阅”的时代广场，在这里你可以这么玩耍：\n"
+        "   (1)滑动：上下左右滑一滑你就知道咯！\n"
+        "   (2)点击：轻轻一点，你就进入了她的内心世界；长按，她就把她的地址交给了你！\n"
+        "   (3)右上角：帮你快速找到你想要的，帮你用不同的眼光看世界！\n"
+        "2、如果你用温柔的目光打开左侧边栏，这是“爱阅”为您准备的精品菜单，主要有四大菜系：\n"
+        "   (1)个人收藏：这里是你所有宝藏的汇集地，你前行路上收藏的所有宝贝都在这了！\n"
+        "   (2)订阅管理：“爱阅”世界里的六大门类，想去哪里由你掌控！\n"
+        "   (3)系统设置：想换种颜色？想打通任督二脉升级更高超的技能？来这就对了！\n"
+        "   (4)关  于：想夸夸她？想吐吐她？想撩撩她？还不快点击右上角小按钮！\n"
+        "3、如果你一不小心打开了右侧边栏，您将收获万能的遥控器一枚，你可以用它遥控“爱阅”的整个世界：\n"
+        "   (1)我的订阅：当你在左侧边栏选择了某一个门类后，这里便迅速地为你展开门内的世界。单击标签就切换了你的时代广场，长按就进入了编辑模式。\n"
+        "   (2)更多订阅：进入编辑模式后，一些标签有可能就被残忍地丢弃到了这里，当然你也可以扔回去，还可以进行排序。\n\n\n"
+
+        "关于作者\n\n"
+        "1、互联网江湖中勤恳的程序员一枚。\n"
+        "2、常混迹于各技术论坛，对Android情有独钟。\n"
+        "3、爱编程、爱写作、爱交友，欢迎与我取得联系。\n\n\n"
+
+        "联系方式\n\n"
+        "1、公众号：WillFlow\n"
+        "2、CSDN：WillFlow\n"
+        "3、简书：WillFlow\n"
+        "4、邮箱：wanggh0757@163.com\n\n\n"
+
+        "~万水千山总是情~\n"
+        "~给个反馈行不行~\n\n"
+
+        "点击右上角邮箱撩我，等你消息哦 (*￣3￣)╭♡\n"
+    </string>
+
+    <string name="permission_get_accounts_hint">请动动你的小手为爱阅开启联系人权限</string>
+    <string name="permission_read_phone_hint">请动动你的小手为爱阅开启电话权限</string>
+    <string name="permission_call_phone_hint">请动动你的小手为爱阅开启电话权限</string>
+    <string name="permission_camera_hint">请动动你的小手为爱阅开启相机权限</string>
+    <string name="permission_access_fine_location_hint">请动动你的小手为爱阅开启位置权限</string>
+    <string name="permission_access_coarse_location_hint">请动动你的小手为爱阅开启位置权限</string>
+    <string name="permission_read_external_hint">请动动你的小手为爱阅开启存储权限</string>
+    <string name="permission_white_external_hint">请动动你的小手为爱阅开启存储权限</string>
+    <string name="permission_recode_audio_hint">请动动你的小手为爱阅开启录制权限</string>
+</resources>

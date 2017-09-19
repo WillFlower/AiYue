@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_layout"
+        android:orderInCategory="91"
+        android:padding="20dp"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle">
+        <menu>
+            <item
+                android:id="@+id/action_show_single"
+                android:icon="@drawable/ic_lineview_grey"
+                android:title="@string/show_single" />
+            <item
+                android:id="@+id/action_show_double"
+                android:icon="@drawable/ic_gridedouble"
+                android:title="@string/show_double" />
+            <item
+                android:id="@+id/action_show_three"
+                android:icon="@drawable/ic_grideview_grey"
+                android:title="@string/show_three" />
+        </menu>
+    </item>
+</menu>

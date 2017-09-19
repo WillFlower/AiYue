@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_navigation_right"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/head_navigation_right"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:background="?attr/colorPrimaryDark"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Will\nFlow"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="?attr/colorPrimaryLight"
+        android:textSize="37dp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <com.wgh.aiyue.ui.view.ChannelView
+        android:id="@+id/channel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/dialog_title_update"
+            android:textColor="?attr/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue_grey_primary_light" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:text="@string/payoffical_message_hint"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="36dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp" />
+
+            <EditText
+                android:id="@+id/serialnum_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:hint="@string/payoffical_number_hint"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/positiveButton"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:text="@string/dialog_button_payoffical"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/negativeButton"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="6dp"
+                android:background="?attr/colorPrimaryLight"
+                android:gravity="center"
+                android:text="@string/dialog_button_inputnum"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
