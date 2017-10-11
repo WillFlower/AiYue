@@ -1,16 +1,16 @@
-# AiYue
+# 爱阅（AiYue）
 
+## 1、博客地址：[WillFlow](http://www.jianshu.com/p/a72135e057ec)
+
+## 2、效果图
+##### （1）整体效果图1
 ![](https://i.imgur.com/TZx1Kqt.png)
-
+##### （2）整体效果图2
 ![](https://i.imgur.com/7YXkTNl.png)
-
+##### （3）开机动图
 ![](http://upload-images.jianshu.io/upload_images/2682788-8e52ee65d9b8edb2.gif?imageMogr2/auto-orient/strip)
 
-![](http://upload-images.jianshu.io/upload_images/2682788-5d769c26788685b1.gif?imageMogr2/auto-orient/strip)
-
-![](http://upload-images.jianshu.io/upload_images/2682788-5d908ff46b2833f0.gif?imageMogr2/auto-orient/strip)
-
-![](http://upload-images.jianshu.io/upload_images/2682788-e4421e9acd1c5b67.gif?imageMogr2/auto-orient/strip)
+#### 更多动图及文章教程可到我的博客中查看：[WillFlow](http://www.jianshu.com/p/a72135e057ec)
 
     关于“爱阅”
     1、“爱阅”专注于收集优质的文章、站点、教程，与大家共分享。
@@ -38,7 +38,7 @@
     3、爱编程、爱写作、爱交友，欢迎与我取得联系。
 
 
-### 联系方式
+## 联系方式
 
 1、邮箱：wanggh0757@163.com
 
