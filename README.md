@@ -1,6 +1,6 @@
 # 爱阅（AiYue）
 
-## 1、博客地址：[WillFlow](http://www.jianshu.com/p/a72135e057ec)
+## 1、博客地址：[简书_WillFlow](http://www.jianshu.com/p/a72135e057ec)、[CSDN_WillFlow](http://blog.csdn.net/comwill/article/details/78091883)
 
 ## 2、效果图
 ##### （1）整体效果图1
